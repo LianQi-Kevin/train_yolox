@@ -68,7 +68,7 @@ if __name__ == '__main__':
     #                            output_folder="dataset_211115_example/")
 
     # 转换YOLOv5数据集到COCO数据集
-    yolo2coco = YOLOV5ToCOCO("dataset_211115_example")
-    yolo2coco.generate()
+    # yolo2coco = YOLOV5ToCOCO("dataset_211115_example")
+    # yolo2coco.generate()
 
     pass
