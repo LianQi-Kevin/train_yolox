@@ -60,4 +60,5 @@ tensorboard --logdir ./YOLOX_outputs/yolox_s/tensorboard/
 
 ##### 参考资料
 
+* [使用自定义数据集训练](https://github.com/LianQi-Kevin/YOLOX/blob/main/docs/train_custom_data.md)
 * [YOLOX骨干网backbone-PAFPN网络结构示意图（结合代码）](https://zhuanlan.zhihu.com/p/397020975)
