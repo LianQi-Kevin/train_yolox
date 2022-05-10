@@ -1,3 +1,5 @@
+### train custom dataset
+
 #### 1. 构建COCO数据集
 
 参考: [COCO数据集标注格式详解----object instances](https://blog.csdn.net/qq_41375609/article/details/94737915)
@@ -20,7 +22,7 @@ class Exp(MyExp):
         super(Exp, self).__init__()
         self.num_classes = 4  # 类别数量
         self.max_epoch = 200  # 训练总轮数
-        self.data_dir = "dataset_211115_example_COCO_format"  # 数据集文件夹
+        self.data_dir = "../dataset_211115_example_COCO_format"  # 数据集文件夹
         self.train_ann = "instances_train2017.json"  # 训练集标签文件名
         self.val_ann = "instances_val2017.json"  # 验证集标签文件名
         self.eval_interval = 5  # 每隔5轮验证一次
@@ -55,10 +57,3 @@ python YOLOX/tools/train.py --exp_file selfEXP.py --batch-size 16 --fp16 --cache
 ```
 tensorboard --logdir ./YOLOX_outputs/yolox_s/tensorboard/
 ```
-
----
-
-##### 参考资料
-
-* [使用自定义数据集训练](https://github.com/LianQi-Kevin/YOLOX/blob/main/docs/train_custom_data.md)
-* [YOLOX骨干网backbone-PAFPN网络结构示意图（结合代码）](https://zhuanlan.zhihu.com/p/397020975)
