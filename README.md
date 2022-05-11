@@ -6,6 +6,8 @@
 
 ### [4. 在Jetson Nano上部署模型并使用Tensorrt加速](markdown/YOLOX_TRT_acceleration.md)
 
+### [5. 在Jetson Nano上编译 tensorRT_Pro](markdown/build-tensorRT_Pro-on-jetson.md)
+
 ---
 
 #### 相关资料
@@ -14,3 +16,4 @@
 * [YOLOX-TensorRT in Python](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/TensorRT/python)
 * [使用自定义数据集训练](https://github.com/LianQi-Kevin/YOLOX/blob/main/docs/train_custom_data.md)
 * [YOLOX骨干网backbone-PAFPN网络结构示意图（结合代码）](https://zhuanlan.zhihu.com/p/397020975)
+* [YOLOX-TensorRT in Python](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/TensorRT/python)
