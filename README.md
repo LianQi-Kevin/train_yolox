@@ -4,7 +4,7 @@
 
 ### [3. 在Jetson Nano上安装YOLOX](markdown/jetson_nano_build_YOLOX.md)
 
-### [4. 在Jetson Nano上部署模型并使用Tensorrt加速](markdown/YOLOX_TRT_acceleration.md)
+### [~~4. 在Jetson Nano上部署模型并使用Tensorrt加速~~](markdown/YOLOX_TRT_acceleration.md)
 
 ### [5. 在Jetson Nano上编译 tensorRT_Pro](markdown/build-tensorRT_Pro-on-jetson.md)
 
