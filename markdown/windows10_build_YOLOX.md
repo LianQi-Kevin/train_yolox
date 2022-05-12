@@ -35,10 +35,10 @@ conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10
 ```shell
 git clone https://github.com/NVIDIA-AI-IOT/torch2trt
 cd torch2trt
-python setup.py install --plugins
+python setup.py instal
 ```
 
-#### Step - 3. clone and install YoloX 0.3.0
+#### Step - l3. clone and install YoloX 0.3.0
 
 ```shell
 git clone -b 0.3.0 https://github.com/Megvii-BaseDetection/YOLOX.git
