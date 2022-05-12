@@ -45,7 +45,7 @@ make yolo -j8
 1. 修改`{tensorRT_Pro}/src/application/tools/pybind11.hpp`
 
 ```objectivec
-# line 159-161
+//# line 159-161
 //#include <Python.h>
 //#include <frameobject.h>
 //#include <pythread.h>
@@ -53,7 +53,7 @@ make yolo -j8
 #include <python3.6/frameobject.h>
 #include <python3.6/pythread.h>
 
-# line 9216
+//# line 9216
 //#include <datetime.h>
 #include <python3.6/datetime.h>
 ```
